@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+body {
+  background-color: #684BB1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-desktop {
+  position: relative;
+  background-image: ("./images/bg-desktop.svg");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-content {
+  position: absolute;
+  top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  width: 200px;
+  height: 32px;
+  margin: 50px 0px 0px 50px;
+}
+
+.content-body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.illustration {
+  width: 696px;
+  height: 493px;
+  margin: 100px 40px 0px 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.body-text {
+  margin: 100px 80px 0px 15px;
 }
+
+.body-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.body-text p {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.body-text button  {
+  width: 200px;
+  height: 56px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #684BB1;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.body-text button:hover {
+  background-color: #E880E8;
+  color: #FFFFFF;
+}
+
+
+.social-links {
+  width: 152px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 20px 10px 1100px;
+}
+
+.facebook,
+.twitter, 
+.instagram {
+  width: 40px;
+  height: 40px;
+}
+
+#svgHover:hover {
+  fill: #FF52C1;
+}
+
+
